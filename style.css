@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Radley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    border: 1px solid #E6CCB2;
+    background-color: #E6CCB2;
+    height: 5vh;
+}
+.logo{
+    display: inline-block;
+}
+.logo img{
+    height: 4vh;
+    width: 4vw;
+    margin-top: 0.5vh;
+    margin-left: 0.5vw;
+}
+.navlinks{
+    float: right;
+}
+.navlinks a{
+    text-decoration: none;
+    color: #804F3B;
+    font-size: larger;
+    font-family: 'Raleway', sans-serif;
+}
+.navlink{
+    display: inline-block;
+    margin-top: 0.5vh;
+    margin-right: 3vw;
+}
+.body{
+    background-color: #EDE0D4;
+    height: 90vh;
+    width: 100vw;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+
+}
+.titlecon{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+.titlecon h3{
+    color: #804F3B;
+    font-size: 4em;
+    font-family: 'Radley', serif;
+}
+.title h3{
+    color: #804F3B;
+    font-size: 4em;
+    font-family: 'Radley', serif;
+}
+.titleback{
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+.titleback h3{
+    color: #804F3B;
+    font-size: 4em;
+    font-family: 'Radley', serif;
+}
+.text{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+.text p{
+    color: #804F3B;
+    font-size: 2em;
+    font-family: 'Radley', serif;
+    text-indent: 2vw;
+    margin-right: 15vw;
+}
+.footer{
+    display: inline-block;
+    background-color: #E6CCB2;
+    height: 5vh;
+    width: 100vw;
+}
+.sublinks{
+    float: right;
+    position: relative;
+    right: 3vw;
+    bottom: 1vh;
+}
+.sublinks img{
+    height: 3vh;
+    width: 3vh;
+}
+.sublink{
+    display: inline-block;
+}
+.copyright{
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+    color: #804F3B;
+}
